@@ -43,8 +43,6 @@ class CurlAPIClient implements APIClient
         $data['api_secret'] = $this->config->getApiSecret();
         $data['data_type'] = $this->config->getDataType();
 
-        print_r($data);
-
         $postFields = http_build_query($data);
 
         $curl_call = curl_init();
