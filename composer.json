@@ -1,0 +1,23 @@
+{
+  "name": "maronlit/zoom_webinar_connector",
+  "description": "Library to intercat with zoom API  and manage your webinar functions.",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "proprietary",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Luca Maroni",
+      "email": "lcmaroni77@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "MaronlIt\\Zoom\\WebinarConnector\\": "src/"
+    }
+  }
+}
