@@ -1,6 +1,7 @@
 #PHP Zoom Webinar Connector
 
-PHP library to intercat with zoom API  and manage your webinar functions
+PHP library to intercat with zoom API  and manage your webinar functions (zoom.us).
+You need to have a zoom account with the webinar plan active.
 
 
 ##PHP sample
