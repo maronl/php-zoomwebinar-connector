@@ -1,5 +1,5 @@
 CREATE TABLE `wp_webinar_api_logs` (
-  `id` int(10) UNSIGNED NOT NULL,
+  `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `request_endpoint` varchar(255) NOT NULL,
   `request_url` varchar(255) NOT NULL,
@@ -8,5 +8,6 @@ CREATE TABLE `wp_webinar_api_logs` (
   `request_method` varchar(15) DEFAULT NULL,
   `response_status` varchar(10) DEFAULT NULL,
   `response` mediumtext,
-  `response_error` mediumtext
+  `response_error` mediumtext,
+  primary key (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
